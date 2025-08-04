@@ -22,6 +22,7 @@ const RandomBannerCopier = () => {
       en: {banner: bannerTextEn, button: buttonTextEn},
       ru: {banner: bannerTextRu, button: buttonTextRu}
     })
+    copyToClipboard(`${bannerTextEn} ${buttonTextEn}`)
   }
 
   return (
