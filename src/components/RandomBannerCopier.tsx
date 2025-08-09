@@ -28,9 +28,9 @@ const RandomBannerCopier = () => {
   return (
     <>
       <div className="flex gap-x-2">
-        <Button onClick={() => onClickHandler(bannerContentData.jackpot)}>Jackpot</Button>
-        <Button onClick={() => onClickHandler(bannerContentData.bingo)}>Bingo</Button>
-        <Button onClick={() => onClickHandler(bannerContentData.spin)}>Spin</Button>
+        <Button onClick={() => onClickHandler(bannerContentData.mixSlovenia)}>Slovenia - Словения</Button>
+        {/*<Button onClick={() => onClickHandler(bannerContentData.mixRoman)}>Roman - Румыния</Button>*/}
+        {/*<Button onClick={() => onClickHandler(bannerContentData.mixEN)}>Mix Casino</Button>*/}
       </div>
 
 

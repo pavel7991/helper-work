@@ -1,8 +1,12 @@
-const copyToClipboard = async (text) => {
+const copyToClipboard = async (text : string) => {
   try {
     await navigator.clipboard.writeText(text)
-  } catch (err : any) {
-    console.error('Failed to copy text: ', err.message);
+  } catch (err) {
+    if (err instanceof Error) {
+      console.log('Failed to copy text: ', err.message);
+    } else {
+      console.log('unexpected error: ', err);
+    }
   }
 }
 
