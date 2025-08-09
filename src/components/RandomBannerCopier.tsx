@@ -1,5 +1,5 @@
 import {useState} from "react";
-import {bannerContentData} from "../data/data.ts";
+import {bannerContentData, type BannerTuple} from "../data/data.ts";
 import random from "../utils/randomArr.ts";
 import copyToClipboard from "../utils/copyToClipboard.ts";
 import Button from "./ui/Button.tsx";
@@ -12,8 +12,9 @@ const RandomBannerCopier = () => {
     ru: {banner: '', button: ''}
   })
 
-  const onClickHandler = async (arr) => {
-    const result = random(arr)
+  const onClickHandler = async (arr : Array<BannerTuple> ) => {
+
+    const result = random(arr);
 
     const [bannerTextEn, buttonTextEn] = result[0].split(' | ')
     const [bannerTextRu, buttonTextRu] = result[1].split(' | ')
@@ -22,7 +23,7 @@ const RandomBannerCopier = () => {
       en: {banner: bannerTextEn, button: buttonTextEn},
       ru: {banner: bannerTextRu, button: buttonTextRu}
     })
-    copyToClipboard(`${bannerTextEn} ${buttonTextEn}`)
+    await copyToClipboard(`${bannerTextEn} ${buttonTextEn}`)
   }
 
   return (
