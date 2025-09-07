@@ -1,10 +1,8 @@
-import RandomBannerCopier from "./components/RandomBannerCopier.tsx";
+import RouterProvider from "./app/providers/RouterProvider.tsx";
 
 function App() {
   return (
-    <div className="container">
-      <RandomBannerCopier/>
-    </div>
+    <RouterProvider/>
   )
 }
 
