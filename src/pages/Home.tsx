@@ -1,6 +1,4 @@
 const Home = () => {
-  return (
-    <h1 className='text-center text-3xl font-bold'>Hello from HOME</h1>
-  )
+	return <h1 className="text-center text-3xl font-bold">My WORK HELPER</h1>
 }
 export default Home

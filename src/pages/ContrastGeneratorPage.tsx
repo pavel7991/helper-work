@@ -1,6 +1,4 @@
 const ContrastGeneratorPage = () => {
-  return (
-    <div>ContrastGeneratorPage</div>
-  )
+	return <div>In DEV</div>
 }
 export default ContrastGeneratorPage
