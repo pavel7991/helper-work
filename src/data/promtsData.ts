@@ -235,6 +235,24 @@ const promptsData = [
 				promptText:
 					'A confident man in a sleek suit walking through a luxury casino lobby with rows of digital slot machines behind him. He holds casino chips and a drink, smiling subtly. Futuristic design, cinematic framing, luxury atmosphere.',
 				img: '/prompts/live-casino/businessman-in-Casino.webp'
+			},
+			{
+				name: 'Крупье',
+				promptText:
+					'A hyper-realistic 8K artwork: a live casino dealer in a tuxedo shuffling glowing cards, dramatic spotlight on the table, poker chips shimmering like jewels under cinematic lighting',
+				img: '/prompts/live-casino/dealer.webp'
+			},
+			{
+				name: 'Зал казино',
+				promptText:
+					'A cinematic 8K realistic artwork: a glamorous VIP lounge inside a casino, red velvet chairs, crystal chandeliers, poker chips glowing like precious gems on the tables',
+				img: '/prompts/live-casino/hall-casino.webp'
+			},
+			{
+				name: 'Зал Vegas',
+				promptText:
+					'A cinematic 8K Vegas casino artwork: a panoramic view of a grand casino hall, slot machines glowing like stars, roulette wheels spinning with neon trails, luxury and epic realism combined',
+				img: '/prompts/live-casino/hall-vegas.webp'
 			}
 		]
 	},
@@ -265,6 +283,12 @@ const promptsData = [
 				promptText:
 					'Luxury-style semi-realistic digital web banner for an online casino website, blending smooth realism with subtle cartoon-style shading. Featuring elegant casino elements like golden poker chips, playing cards, and glowing slot machines. The main character is a glamorous woman in a luxurious dress with a sparkling diamond crown, standing confidently beside an open silver case overflowing with stacks of cash. Background in deep rich tones #161616, main colors #f3e169 and #3e0127, warm golden light accents. Ultra-HD quality, cinematic lighting, high-fashion luxurious aesthetic with a hint of artistic illustration',
 				img: '/prompts/girls/girl-money-case.webp'
+			},
+			{
+				name: 'Sexy woman',
+				promptText:
+					'A cinematic 8K realistic artwork: glamorous woman in a golden dress leaning on a roulette table, champagne glass in hand, neon lights reflecting in her jewelry, seductive casino vibe',
+				img: '/prompts/girls/sexy-woman.webp'
 			}
 		]
 	},
