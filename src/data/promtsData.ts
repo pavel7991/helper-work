@@ -179,6 +179,36 @@ const promptsData = [
 		]
 	},
 	{
+		key: 'safari',
+		label: 'Сафари',
+		prompts: [
+			{
+				name: 'Лев',
+				promptText:
+					'A cinematic 8K realistic artwork: a majestic lion standing on top of a glowing roulette wheel in the middle of the savannah, golden coins scattered across the desert sand, neon casino lights blending with the sunset horizon',
+				img: '/prompts/safari/safari-lion.webp'
+			},
+			{
+				name: 'Слон',
+				promptText:
+					'A hyper-realistic 8K casino safari artwork: an elephant with golden tusks walking through a casino hall, poker chips and cards floating around him, slot machines glowing behind like ancient totems',
+				img: '/prompts/safari/safari-elephant.webp'
+			},
+			{
+				name: 'Носорог',
+				promptText:
+					'A cinematic 8K realistic artwork: a rhino smashing a blackjack table with its horn, glowing cards and coins exploding into the air, casino hall blending with African savannah landscape',
+				img: '/prompts/safari/safari-rhino.webp'
+			},
+			{
+				name: 'Леопард',
+				promptText:
+					'A cinematic 8K realistic artwork: a cheetah leaping across slot machines in a desert casino, glowing sparks of coins and cards trailing behind, speed and energy frozen in epic detail',
+				img: '/prompts/safari/safari-leaping.webp'
+			}
+		]
+	},
+	{
 		key: 'live-сasino',
 		label: 'Live Casino',
 		prompts: [
@@ -259,6 +289,30 @@ const promptsData = [
 				promptText:
 					'Hyper-realistic scene: a European football striker in green uniform performs a powerful kick, sending a flaming soccer ball straight into the goal net. Behind him, golden poker chips and stacks of dollar bills explode into the air under glowing casino lights.',
 				img: '/prompts/bet/football-player-fire.webp'
+			},
+			{
+				name: 'Баскетболист',
+				promptText:
+					'A hyper-realistic 8K artwork: a basketball player in mid-air slam dunk, glowing poker chips exploding like sparks behind him, giant scoreboard showing flashing betting odds, cinematic stadium lighting',
+				img: '/prompts/bet/basketball-player.webp'
+			},
+			{
+				name: 'Нейтральные ставки',
+				promptText:
+					'A cinematic 8K realistic artwork: a sports bar filled with glowing screens showing football matches, betting slips scattered on tables, stacks of poker chips glowing beside cold drinks, cinematic realism',
+				img: '/prompts/bet/neutral-bet.webp'
+			},
+			{
+				name: 'Вызов',
+				promptText:
+					'A hyper-realistic 8K artwork: two rival football players facing off, lightning between them shaped like glowing betting odds, golden coins and banknotes floating in the dramatic stadium air.',
+				img: '/prompts/bet/two-football-players.webp'
+			},
+			{
+				name: 'Вратарь',
+				promptText:
+					'A hyper-realistic 8K artwork: a goalkeeper diving for a glowing ball made of neon chips and dice, the net shimmering with golden sparks, cinematic sports betting atmosphere.',
+				img: '/prompts/bet/goalkeeper.webp'
 			}
 		]
 	},
@@ -354,6 +408,36 @@ const promptsData = [
 				promptText:
 					'A cinematic 8K fantasy artwork: Athena in shimmering golden armor, standing beside a colossal roulette wheel shaped like a shield, glowing runes spinning across its edge, casino as a battlefield of wisdom and chance',
 				img: '/prompts/epic/epic-wheel.webp'
+			}
+		]
+	},
+	{
+		key: 'galaxy',
+		label: 'Космос',
+		prompts: [
+			{
+				name: 'Galaxy + Slot Machine',
+				promptText:
+					'Futuristic slot machine floating in deep space, surrounded by glowing planets shaped like giant casino chips and colorful poker symbols. A sleek astronaut in a reflective helmet floats nearby, reaching toward the machine. Behind them, massive planets and distant galaxies glow in neon purples, blues, and pinks, with laser spins and shimmering stardust. Highly detailed, vibrant lighting, cinematic sci-fi atmosphere',
+				img: '/prompts/galaxy/galaxy-slot.webp'
+			},
+			{
+				name: 'Волк астронавт',
+				promptText:
+					'Cartoonish semi-realistic casino artwork: a cool astronaut wolf in a shiny space suit playing poker on the surface of the Moon, glowing chips and cards floating in zero gravity, neon slot machines in the background, 8K cinematic detail',
+				img: '/prompts/galaxy/galaxy-wolf.webp'
+			},
+			{
+				name: 'Cosmic wheel',
+				promptText:
+					'Cartoonish semi-realistic cosmic casino scene: a stylish astronaut in a red jacket spinning a giant roulette wheel floating in zero gravity, the wheel glowing like a galaxy spiral, poker chips and neon stars around, 8K',
+				img: '/prompts/galaxy/cosmic-wheel.webp'
+			},
+			{
+				name: 'Робот дилер',
+				promptText:
+					'Cartoonish semi-realistic casino scene: a robot dealer with neon eyes dealing holographic cards at a space station casino, poker chips spinning like tiny planets in orbit, playful but cinematic 8K style.',
+				img: '/prompts/galaxy/galaxy-robot.webp'
 			}
 		]
 	}
