@@ -88,8 +88,21 @@ const promptsData = [
 				img: '/prompts/cartoons/king-queen.webp'
 			},
 			{
+				name: 'Король + slot',
+				promptText:
+					'Pixar-style King in a majestic golden crown and royal robe, confidently pulling the lever of a glowing slot machine shaped like a throne. Piles of gold coins and casino chips scatter around, 8K cinematic realism',
+				img: '/prompts/cartoons/king-slot.webp'
+			},
+			{
+				name: 'Королева',
+				promptText:
+					'Pixar-style Queen in a sparkling violet gown with diamond jewelry, standing at a roulette table glowing with neon lights. Magical casino cards float around her, 8K vibrant detail, cartoonish semi-realism',
+				img: '/prompts/cartoons/queen.webp'
+			},
+			{
 				name: 'Пираты',
-				promptText: '',
+				promptText:
+					'Сartoon pirate king and pirate queen sitting on a grand throne made of colorful casino chips and gold doubloons. The queen playfully tosses gold coins into the air like confetti, while the king laughs with a tilted pirate hat and an eyepatch, holding a slot machine lever shaped like a ship’s wheel. Behind them, a vibrant pirate ship casino with glowing slot reels and a roulette wheel on the deck. Bright fantasy colors, deep ocean blues, royal red and gold tones, comical jackpot celebration, playful and detailed style',
 				img: '/prompts/cartoons/pirats.webp'
 			},
 			{
@@ -99,34 +112,106 @@ const promptsData = [
 				img: '/prompts/cartoons/cowboy.webp'
 			},
 			{
-				name: 'Зевс',
+				name: 'Девушка ковбой',
 				promptText:
-					'Pixar-style ultra-bright cartoon casino banner in a whimsical medieval-fantasy theme. Zeus, the mighty god with a long flowing white beard and heroic muscular build, sits on a majestic throne made of huge, colorful poker chips, glowing softly. He raises his shining hand, summoning a bolt of vibrant electric-blue lightning that magically transforms into a sparkling waterfall of golden coins and vivid poker chips, pouring toward a giant roulette wheel. The air is filled with shimmering light particles, rainbow lens flares, and playful casino symbols. In the background, a grand medieval castle with glowing slot machines and festive banners featuring playing card suits. Extremely vibrant colors, smooth textures, cinematic lighting, and charming Pixar-like 3D style',
-				img: '/prompts/cartoons/zeus.webp'
-			},
-			{
-				name: 'Руки-молнии',
-				promptText:
-					'Cartoon-style young heroic man with light blonde hair and a white beard, resembling the main character from Troy, wearing detailed fantasy armor. Blue lightning flows from his hands. He stands under a deep starry night sky. Around him are colorful casino chips and piles of gold coins. Bright, vibrant colors, cinematic lighting, dynamic composition. Rendered in Pixar-style 3D animation, with smooth textures and expressive features.',
-				img: '/prompts/cartoons/lightning-hands.webp'
+					'Pixar-style Cowgirl in a red plaid shirt and jeans, leaning against a roulette wheel shaped like a wagon wheel. Golden coins and chips sparkle in the desert night. 8K semi-realistic Pixar animation',
+				img: '/prompts/cartoons/girl-cowboy.webp'
 			},
 			{
 				name: 'Рыцарь',
 				promptText:
-					'Pixar-style cartoon casino banner in a whimsical medieval theme. A proud knight in shiny, polished silver armor with exaggerated, rounded proportions stands confidently, holding an oversized poker chip like a shield and a sword made of shimmering golden coins. Around him lie piles of sparkling gold, stacks of flying cash, and colorful glowing casino chips. In the background, a charming medieval castle decorated with glowing slot machines and fluttering banners with playing card symbols. Warm cinematic lighting, vibrant saturated colors, soft textures, highly detailed, playful and engaging atmosphere',
+					'Pixar-style Knight in polished silver armor with a glowing sword shaped like a poker chip. He stands on a mountain of casino chips and gold coins, neon slot machines in the background. 8K ultra-detailed',
 				img: '/prompts/cartoons/death-knight.webp'
 			},
 			{
-				name: 'Рыцарь Римлянин',
+				name: 'Рыцарь Покера',
 				promptText:
-					'Pixar-style cartoon casino banner in a whimsical Roman Empire theme. A proud Roman legionary in shiny, polished bronze armor with exaggerated rounded proportions stands confidently, holding an oversized poker chip like a legionary shield and a short sword (gladius) made of shimmering golden coins. Around him are piles of sparkling gold, stacks of flying cash, and glowing colorful casino chips. In the background, a majestic Roman colosseum decorated with giant slot machines and banners carrying playing card symbols. Warm cinematic lighting, vibrant saturated colors, soft textures, highly detailed, playful and engaging atmosphere.',
-				img: '/prompts/cartoons/roman-knight.webp'
+					'Funny Pixar-style knight with a huge sword, using it to push casino chips into the center of a blackjack table, playful cinematic vibe',
+				img: '/prompts/cartoons/knight-poker.webp'
 			},
 			{
 				name: 'Карикатурный Гангстер',
 				promptText:
 					'Funny cartoon gangster in a pinstripe suit holding oversized dice in one hand, leaning casually on a glowing slot machine. Wearing a gold chain and fedora hat, with a confident grin. Background filled with floating poker cards, neon lights, and swirling stacks of cash and flying dollar bills. Classic mafia aesthetic meets casino vibes, comic-style shadows, bright and detailed',
 				img: '/prompts/cartoons/comic-gangster.webp'
+			},
+			{
+				name: 'Авантюрист',
+				promptText:
+					'Pixar-style Adventurer Man in a leather jacket with a glowing treasure map, standing beside a slot machine carved like an ancient temple. Coins and casino chips burst from the reels, 8K ultra-realistic cartoon style',
+				img: '/prompts/cartoons/adventurer.webp'
+			},
+			{
+				name: 'Ельф принц',
+				promptText:
+					'Pixar-style Elf Prince with glowing blue eyes, standing before a giant slot machine shaped like an enchanted tree. Golden leaves turn into poker chips as they fall. 8K semi-realistic cinematic style',
+				img: '/prompts/cartoons/elf-prince.webp'
+			}
+		]
+	},
+	{
+		key: 'gods-cartoon',
+		label: 'Мультяшные боги',
+		prompts: [
+			{
+				name: 'Руки-молнии',
+				promptText:
+					'Cartoon-style young heroic man with light blonde hair and a white beard, resembling the main character from Troy, wearing detailed fantasy armor. Blue lightning flows from his hands. He stands under a deep starry night sky. Around him are colorful casino chips and piles of gold coins. Bright, vibrant colors, cinematic lighting, dynamic composition. Rendered in Pixar-style 3D animation, with smooth textures and expressive features.',
+				img: '/prompts/gods/lightning-hands.webp'
+			},
+			{
+				name: 'Зевс',
+				promptText:
+					'Cartoon-style Zeus in gleaming golden-white armor, holding a glowing roulette wheel instead of a thunderbolt. Blue lightning arcs across the night sky as casino chips rain down around him. Pixar-style 3D, 8K ultra-detailed textures, expressive and heroic',
+				img: '/prompts/gods/zeus.webp'
+			},
+			{
+				name: 'Посейдон',
+				promptText:
+					'Pixar-style Poseidon, majestic with flowing aqua hair and beard, wielding a trident shaped like a giant slot machine lever. Glowing waves made of gold coins crash around him, colorful casino chips floating on the water. 8K cinematic vibrancy',
+				img: '/prompts/gods/poseidon.webp'
+			},
+			{
+				name: 'Аид',
+				promptText:
+					'Cartoon-style Hades in dark obsidian armor, fiery glowing dice in his hands. Behind him, a throne of black roulette wheels burns with purple and red light. Pixar-style 3D rendering, 8K ultra-detail, moody but playful atmosphere',
+				img: '/prompts/gods/hades.webp'
+			},
+			{
+				name: 'Арес',
+				promptText:
+					'Cartoon-style Ares, the god of war, armored in crimson and gold. Instead of weapons, he swings glowing playing cards like blades. He stands on a battlefield of poker chips and roulette wheels. Pixar 3D animation, 8K vibrant style',
+				img: '/prompts/gods/ares.webp'
+			},
+			{
+				name: 'Гермес',
+				promptText:
+					'Pixar-style Hermes, with winged sandals and a glowing golden staff. He races across a neon casino floor, leaving trails of sparkling coins and chips behind. Ultra-detailed 8K Pixar textures, playful and energetic',
+				img: '/prompts/gods/hermes.webp'
+			},
+			{
+				name: 'Афина',
+				promptText:
+					'Pixar-style Athena, armored in silver and purple, holding a radiant shield engraved with glowing slot reels. Enchanted casino dice float around her as magical owls scatter poker chips into the night sky. 8K cinematic composition',
+				img: '/prompts/gods/athena.webp'
+			},
+			{
+				name: 'Анубис',
+				promptText:
+					'Cartoon-style Anubis, jackal-headed god in golden Egyptian armor, standing by a glowing pyramid-shaped slot machine. Purple casino lights and magical hieroglyphs glow across the scene, 8K Pixar semi-realism',
+				img: '/prompts/gods/anubis.webp'
+			},
+			{
+				name: 'Тор',
+				promptText:
+					'Pixar-style Thor, heroic with a glowing hammer shaped like a giant poker chip. Thunder and lightning strike as casino coins rain from the sky, dynamic Pixar 3D animation style, 8K cinematic epic composition',
+				img: '/prompts/gods/thor.webp'
+			},
+			{
+				name: 'Дионис',
+				promptText:
+					'Pixar-style Dionysus, god of wine and pleasure, laughing joyfully while tossing glowing dice into the air. Behind him, slot machines erupt like fountains of coins and grape vines curl around roulette wheels. Bright and playful, 8K high detail',
+				img: '/prompts/gods/dionysus.webp'
 			}
 		]
 	},
@@ -418,7 +503,8 @@ const promptsData = [
 			},
 			{
 				name: 'Дракон + покер',
-				promptText: '',
+				promptText:
+					'Epic 8K cinematic artwork: a massive dragon battles a group of warriors around a giant poker table made of enchanted crystal and gold. The cards shine like runes, lightning strikes illuminate mountains of chips and coins, casino-fantasy mythology fusion',
 				img: '/prompts/epic/dragon-poker.webp'
 			},
 			{
