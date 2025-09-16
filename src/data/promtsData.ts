@@ -338,6 +338,24 @@ const promptsData = [
 				promptText:
 					'A cinematic 8K Vegas casino artwork: a panoramic view of a grand casino hall, slot machines glowing like stars, roulette wheels spinning with neon trails, luxury and epic realism combined',
 				img: '/prompts/live-casino/hall-vegas.webp'
+			},
+			{
+				name: 'Крупье',
+				promptText:
+					'8K ultra-detailed realism: a confident male croupier in a black tuxedo deals cards at a blackjack table, with dramatic spotlights and luxury chandeliers above',
+				img: '/prompts/live-casino/male-croupier.webp'
+			},
+			{
+				name: 'Люди за покерным столом',
+				promptText:
+					'8K photorealistic scene: a group of friends laughing at a craps table, stacks of chips glowing under soft casino spotlights, champagne glasses in hand',
+				img: '/prompts/live-casino/people-poker-table.webp'
+			},
+			{
+				name: 'Босс казино',
+				promptText:
+					'8K realism: a mafia boss in a white suit smokes a cigar while spinning a roulette wheel, golden smoke trails in the air',
+				img: '/prompts/live-casino/boss-roulette.webp'
 			}
 		]
 	},
@@ -374,6 +392,18 @@ const promptsData = [
 				promptText:
 					'A cinematic 8K realistic artwork: glamorous woman in a golden dress leaning on a roulette table, champagne glass in hand, neon lights reflecting in her jewelry, seductive casino vibe',
 				img: '/prompts/girls/sexy-woman.webp'
+			},
+			{
+				name: 'Девушка с картами',
+				promptText:
+					'8K detailed realism: an elegant woman with long dark hair holds playing cards in one hand and poker chips in the other, standing against a backdrop of glowing slot machines',
+				img: '/prompts/girls/woman-poker-card.webp'
+			},
+			{
+				name: 'Девушка с картами 2',
+				promptText:
+					'8K cinematic realism: a seductive femme fatale dealer in a black dress reveals cards at a blackjack table, glowing golden details',
+				img: '/prompts/girls/woman-poker-card2.webp'
 			}
 		]
 	},
@@ -422,6 +452,12 @@ const promptsData = [
 				promptText:
 					'A hyper-realistic 8K artwork: a goalkeeper diving for a glowing ball made of neon chips and dice, the net shimmering with golden sparks, cinematic sports betting atmosphere.',
 				img: '/prompts/bet/goalkeeper.webp'
+			},
+			{
+				name: 'Футболист + кости',
+				promptText:
+					'8K realistic casino artwork: a football player in uniform rolls dice on a craps table, neon stadium lights blend with casino atmosphere',
+				img: '/prompts/bet/football-player-chips.webp'
 			}
 		]
 	},
