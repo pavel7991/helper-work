@@ -50,6 +50,78 @@ const promptsData = [
 				promptText:
 					'A luxurious blackjack table with playing cards, poker chips, and stacks of cash, glowing ambient casino lighting, 8K ultra-realistic textures, cinematic luxury finish',
 				img: '/prompts/neutral-bg/blackjack-table.webp'
+			},
+			{
+				name: 'Cyberpunk VIP lounge',
+				promptText:
+					'8K hyper-realistic cyberpunk casino scene: a luxurious VIP lounge with a marble table glowing under neon cyan and magenta lights. The table is covered with crisp neon banknotes and holographic betting slips, surrounded by tall stacks of glowing poker chips. A futuristic roulette wheel spins in the background with holographic projections, cinematic rim lighting, glossy neon reflections, ultra-detailed textures',
+				img: '/prompts/neutral-bg/cyberpunk-lounge.webp'
+			},
+			{
+				name: 'Cyberpunk poker table',
+				promptText:
+					'8K macro hyperrealism: a futuristic poker table made of glowing carbon fiber with neon outlines, scattered with holographic stacks of chips in electric cyan, neon pink, and deep violet. Depth of field reveals polished neon-lit surfaces and futuristic playing cards with glowing digital symbols. Background bokeh shows blurred neon chandeliers and silhouettes of cyberpunk players under electric light, cinematic sci-fi atmosphere',
+				img: '/prompts/neutral-bg/cyberpunk-chips.webp'
+			},
+			{
+				name: 'Cyberpunk private casino desk',
+				promptText:
+					'8K ultra-realistic cyberpunk artwork: a private VIP casino desk with black marble glowing under neon purple and cyan accents. Elegant golden holographic chips hover above the surface, glowing betting slips display digital numbers, and a futuristic roulette wheel with neon circuits spins in the background. Cinematic moody cyberpunk lighting, glossy neon reflections, premium futuristic detail',
+				img: '/prompts/neutral-bg/cyberpunk-desk.webp'
+			}
+		]
+	},
+	{
+		key: 'neutral-cartoon',
+		label: 'Нейтральный мультяшный',
+		prompts: [
+			{
+				name: 'Slot machine',
+				promptText:
+					'Pixar-style cartoon banner: a giant glowing slot machine pouring golden coins and colorful poker chips like a fountain, neon lights shining in the background, 8K vibrant detail',
+				img: '/prompts/neutral-cartoon-bg/slot-machine.webp'
+			},
+			{
+				name: 'Кости + слоты',
+				promptText:
+					'Pixar-style: oversized dice rolling across a glowing casino floor, surrounded by cartoon slot machines and sparkling coins, cheerful and vibrant 8K atmosphere',
+				img: '/prompts/neutral-cartoon-bg/dice.webp'
+			},
+			{
+				name: 'Slot + fruits',
+				promptText:
+					'Cartoon 8K banner: a glowing slot machine with animated fruits and bells flying out of the screen, poker chips scatter across a shiny casino carpet, playful Pixar vibe',
+				img: '/prompts/neutral-cartoon-bg/slot-fruits.webp'
+			},
+			{
+				name: 'Poker chips mountain',
+				promptText:
+					'Pixar-style artwork: stacks of cartoon poker chips arranged like a colorful mountain, golden coins raining down from above, neon lights glowing in the background, 8K',
+				img: '/prompts/neutral-cartoon-bg/poker-chips-mountain.webp'
+			},
+			{
+				name: 'Карты',
+				promptText:
+					'Pixar-style: giant cartoon playing cards floating in the air, poker chips and coins swirling around them, glowing slot machine reels in the background, 8K ultra vibrant',
+				img: '/prompts/neutral-cartoon-bg/poker-cards.webp'
+			},
+			{
+				name: 'Coins',
+				promptText:
+					'Cartoonish 8K: jackpot coins bursting out of a slot machine shaped like a treasure chest, glowing neon casino lights in the background, playful Pixar cartoon vibes',
+				img: '/prompts/neutral-cartoon-bg/coins.webp'
+			},
+			{
+				name: 'Wheel',
+				promptText:
+					'Pixar-style 8K: a glowing roulette wheel spinning fast with cartoon poker chips flying outwards, stacks of bills and golden coins floating in neon sparkles',
+				img: '/prompts/neutral-cartoon-bg/wheel-cartoon.webp'
+			},
+			{
+				name: 'Slot + coins',
+				promptText:
+					'Cartoon casino 8K: a glowing slot machine with spinning reels showing dollar signs, poker chips exploding like fireworks, vibrant cartoon casino background',
+				img: '/prompts/neutral-cartoon-bg/slot-coins.webp'
 			}
 		]
 	},
@@ -68,12 +140,6 @@ const promptsData = [
 				promptText:
 					'Cartoon casino-style character inspired by Casino World. A charming man in a tuxedo with exaggerated proportions, holding glowing poker chips in one hand and a deck of cards in the other. Bright neon colors, playful casino vibe, soft 3D textures, and a cheerful expression.',
 				img: '/prompts/cartoons/lucky-man.webp'
-			},
-			{
-				name: 'Король казино',
-				promptText:
-					'Cartoon casino-style character inspired by Casino World. A charming man in a tuxedo with exaggerated proportions, holding glowing poker chips in one hand and a deck of cards in the other. Bright neon colors, playful casino vibe, soft 3D textures, and a cheerful expression.',
-				img: '/prompts/cartoons/king-casino.webp'
 			},
 			{
 				name: 'Весельчак',
@@ -151,7 +217,7 @@ const promptsData = [
 	},
 	{
 		key: 'gods-cartoon',
-		label: 'Мультяшные боги',
+		label: 'Боги',
 		prompts: [
 			{
 				name: 'Руки-молнии',
