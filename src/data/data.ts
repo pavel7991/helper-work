@@ -4,7 +4,7 @@ type BannerContentDataType = Record<string, BannerTuple[]>
 
 export const bannerContentData: BannerContentDataType = {
   mixEN: [
-    ["Spin to Win $1000 Instantly | Try Now", "Крути — выигрывай $1000 сразу | Попробовать"],
+   
     ["Grab Your Free Bonus Today | Claim Bonus", "Забери бесплатный бонус сегодня | Получить бонус"],
     ["Hit the Jackpot Before Midnight | Spin Now", "Сорви джекпот до полуночи | Крутить"],
     ["Win Big With Every Spin | Play Now", "Выигрывай с каждым вращением | Играть"],
@@ -1080,6 +1080,101 @@ export const bannerContentData: BannerContentDataType = {
     ["Brezplačni vrtljaji brez omejitev! | Prevzemi", "Бесплатные вращения без ограничений! | Забрать"]
   ],
   mixGermany: [
+		["Dreh den Spin und knacke den Jackpot | Jetzt drehen", "Крути спин и сорви джекпот | Крутить сейчас"],
+		["Willkommensbonus bis zu €500 sichern | Bonus holen", "Получите приветственный бонус до €500 | Забрать бонус"],
+		["Kostenlose Spins auf heiße Slots | Jetzt spielen", "Бесплатные спины на горячих слотах | Играть сейчас"],
+		["Jackpot-Spiele warten auf dich | Gewinne jetzt", "Игры с джекпотом ждут тебя | Выиграть сейчас"],
+		["Exklusive Slot-Turniere mit Preisen | Jetzt teilnehmen", "Эксклюзивные турниры в слотах с призами | Принять участие"],
+
+		["Drehe das Rad und kassiere Sofort-Bonus | Drehen", "Крути колесо и получи мгновенный бонус | Крутить"],
+		["Spiele Slots mit 200% Bonus | Bonus aktivieren", "Играй в слоты с 200% бонусом | Активировать бонус"],
+		["Jackpot Nights – Gewinne groß! | Jetzt starten", "Джекпот-ночи – выигрывай по-крупному! | Начать сейчас"],
+		["Deine Freispiele warten schon | Hol dir Spins", "Твои бесплатные спины уже ждут | Забрать спины"],
+		["Spannung pur – progressive Jackpots | Spielen", "Чистый азарт – прогрессивные джекпоты | Играть"],
+
+		["Mega Spin – Mega Gewinn | Spin starten", "Мега-спин – мега-выигрыш | Запустить спин"],
+		["Verdopple deine Chance mit Bonus | Bonus sichern", "Удвой шансы с бонусом | Забрать бонус"],
+		["Top Slots des Monats | Jetzt ausprobieren", "Топ-слоты месяца | Попробовать сейчас"],
+		["Jackpot Party – Gewinne sofort | Mitfeiern", "Джекпот-вечеринка – выигрывай сразу | Присоединиться"],
+		["Exklusiver €100 Willkommensspin | Drehen", "Эксклюзивный спин за €100 | Крутить"],
+
+		["Kostenlos anmelden & Spins kassieren | Registrieren", "Зарегистрируйся бесплатно и получи спины | Зарегистрироваться"],
+		["Spiele die heißesten Slots | Jetzt loslegen", "Играй в самые горячие слоты | Начать сейчас"],
+		["Jackpot abholen – dein Moment | Gewinnen", "Забери джекпот – твой момент | Выиграть"],
+		["Spins ohne Risiko | Kostenlos spielen", "Спины без риска | Играть бесплатно"],
+		["Hol dir deinen Bonuscode | Bonus einlösen", "Забери свой бонус-код | Активировать бонус"],
+
+		["Spin & Win sofort €100 | Drehen", "Крути и выигрывай €100 сразу | Крутить"],
+		["Exklusive Slots nur hier | Jetzt spielen", "Эксклюзивные слоты только здесь | Играть"],
+		["Jackpot Friday – Gewinne jede Minute | Mitspielen", "Джекпот-Пятница – выигрывай каждую минуту | Играть"],
+		["Verdiene Freispiele bei jedem Spin | Drehen", "Зарабатывай фриспины за каждый спин | Крутить"],
+		["Erlebe Casino Action live | Jetzt erleben", "Ощути азарт казино вживую | Попробовать"],
+
+		["Jackpot garantiert – nur heute | Spielen", "Гарантированный джекпот – только сегодня | Играть"],
+		["Super Spin Aktion | Jetzt drehen", "Супер-спин акция | Крутить сейчас"],
+		["Bonus Spins für neue Spieler | Bonus holen", "Бонусные спины для новичков | Забрать бонус"],
+		["Slots, Spins & Spaß | Starte jetzt", "Слоты, спины и веселье | Начать сейчас"],
+		["Progressiver Jackpot wächst | Spielen", "Прогрессивный джекпот растет | Играть"],
+
+		["Erhalte €50 Bonus ohne Einzahlung | Bonus holen", "Получите €50 без депозита | Забрать бонус"],
+		["Drehe jetzt für den großen Gewinn | Spin starten", "Крути сейчас ради большого выигрыша | Запустить"],
+		["Jackpot Slots warten auf dich | Jetzt spielen", "Джекпот-слоты ждут тебя | Играть"],
+		["Exklusiver Spin für neue Spieler | Drehen", "Эксклюзивный спин для новых игроков | Крутить"],
+		["Schnelle Auszahlungen garantiert | Auszahlen", "Быстрые выплаты гарантированы | Вывести"],
+
+		["Mehr Spins – mehr Chancen | Drehen", "Больше спинов – больше шансов | Крутить"],
+		["Jackpot Adventure beginnt hier | Starten", "Приключение за джекпотом начинается здесь | Начать"],
+		["Bonusrad drehen & gewinnen | Jetzt drehen", "Крути бонусное колесо и выигрывай | Крутить"],
+		["Slots des Tages – heiß & spannend | Spielen", "Слоты дня – горячие и азартные | Играть"],
+		["Deine Chance auf €10.000 Jackpot | Spielen", "Твой шанс на джекпот €10.000 | Играть"],
+
+		["Spin Fiesta – Gewinne sofort | Mitmachen", "Фиеста спинов – выигрывай сразу | Участвовать"],
+		["Slots + Freispiele = Gewinn | Jetzt starten", "Слоты + фриспины = выигрыш | Начать"],
+		["Jackpot Mania heute Nacht | Spielen", "Джекпот-мания сегодня ночью | Играть"],
+		["Willkommenspaket bis €1000 | Bonus holen", "Приветственный пакет до €1000 | Забрать бонус"],
+		["Drehe für Freispiele | Spin starten", "Крути ради фриспинов | Запустить"],
+
+		["Jackpot Rush – Gewinne groß | Spielen", "Джекпот-Раш – выигрывай по-крупному | Играть"],
+		["Exklusive VIP-Slots | Jetzt ausprobieren", "Эксклюзивные VIP-слоты | Попробовать"],
+		["Spiele & kassiere Sofort-Bonus | Bonus holen", "Играй и получи мгновенный бонус | Забрать бонус"],
+		["Spin und verdiene Echtgeld | Drehen", "Крути и зарабатывай реальные деньги | Крутить"],
+		["Jackpot Hits nur bei uns | Spielen", "Джекпот-хиты только у нас | Играть"],
+
+		["Freispiele jeden Tag | Jetzt sichern", "Фриспины каждый день | Забрать"],
+		["Hol dir 200 Freispiele | Bonus einlösen", "Забери 200 фриспинов | Активировать"],
+		["Spin Challenge – Gewinne groß | Mitmachen", "Спин-челлендж – выигрывай по-крупному | Участвовать"],
+		["Jackpot Weekend beginnt jetzt | Spielen", "Джекпот-уикенд начинается сейчас | Играть"],
+		["Slots mit Extra-Bonus | Spielen", "Слоты с дополнительным бонусом | Играть"],
+
+		["Spin & Cash Aktion | Jetzt drehen", "Акция «Спин и кэш» | Крутить"],
+		["Jackpot nur einen Klick entfernt | Spielen", "Джекпот в одном клике | Играть"],
+		["Bonusrad: Drehe & Gewinne | Drehen", "Бонусное колесо: крути и выигрывай | Крутить"],
+		["Slots mit Super-Features | Jetzt testen", "Слоты с супер-фишками | Протестировать"],
+		["Exklusiver Highroller-Bonus | Bonus holen", "Эксклюзивный бонус для хайроллеров | Забрать бонус"],
+
+		["Jackpot Power – Gewinne sofort | Spielen", "Сила джекпота – выигрывай мгновенно | Играть"],
+		["Spins ohne Ende | Drehen", "Бесконечные спины | Крутить"],
+		["Bonus bis zu €200 extra | Aktivieren", "Бонус до €200 дополнительно | Активировать"],
+		["Slots mit Echtgeld-Belohnung | Spielen", "Слоты с реальными наградами | Играть"],
+		["Jackpot Blitz Aktion | Mitmachen", "Акция «Джекпот-Блиц» | Участвовать"],
+
+		["Spin des Tages sichern | Drehen", "Забери спин дня | Крутить"],
+		["Jackpot Countdown läuft | Spielen", "Обратный отсчет джекпота | Играть"],
+		["Exklusive Freispiele sofort | Bonus holen", "Эксклюзивные фриспины сразу | Забрать бонус"],
+		["Slots Abenteuer warten | Spielen", "Приключения в слотах ждут | Играть"],
+		["Bonus Weekend Special | Bonus aktivieren", "Специальный бонус на выходные | Активировать"],
+
+		["Jackpot Zone – Gewinne jetzt | Spielen", "Зона джекпота – выигрывай сейчас | Играть"],
+		["Spin & Win jeden Tag | Drehen", "Крути и выигрывай каждый день | Крутить"],
+		["Hol dir Freispiele ohne Limit | Bonus holen", "Забери фриспины без лимита | Забрать бонус"],
+		["Slots voller Action | Spielen", "Слоты, полные экшена | Играть"],
+		["Mega Bonus bei Ersteinzahlung | Aktivieren", "Мега-бонус при первом депозите | Активировать"],
+
+		["Jackpot Dreams werden wahr | Spielen", "Мечты о джекпоте становятся реальностью | Играть"],
+		["Spin & Glück erleben | Drehen", "Крути и почувствуй удачу | Крутить"],
+		["Bonus Fiesta jetzt starten | Bonus holen", "Начни бонус-фиесту прямо сейчас | Забрать бонус"],
+		["Slots Deluxe Edition | Spielen", "Слоты «Делюкс-издание» | Играть"],
+		["Jackpot Fever heute Nacht | Mitspielen", "Джекпот-лихорадка сегодня ночью | Играть"],
     ["Dreh und gewinne 1000€ sofort | Jetzt spielen", "Крути — выигрывай 1000€ сразу | Играть сейчас"],
     ["Sichere dir heute deinen Gratisbonus | Bonus holen", "Забери сегодня свой бесплатный бонус | Получить бонус"],
     ["Jackpot wartet – dreh jetzt! | Jetzt drehen", "Джекпот ждёт – крути сейчас! | Крутить сейчас"],
@@ -1120,7 +1215,6 @@ export const bannerContentData: BannerContentDataType = {
     ["Casino-Spaß ohne Ende | Spielen", "Веселье казино без конца | Играть"],
     ["Greif nach den Sternen | Starten", "Тянись к звёздам | Начать"],
     ["Dein Gewinn wartet | Hol ihn dir", "Твой выигрыш ждёт | Забрать"],
-    ["Werde zum High Roller | Spielen", "Стань хайроллером | Играть"],
     ["Glücksjackpot knacken | Jetzt spielen", "Сорви джекпот удачи | Играть"],
     ["Gratis spielen – echt gewinnen | Starten", "Играй бесплатно – выигрывай по-настоящему | Начать"],
     ["Casino-Bonus in Sekunden | Bonus sichern", "Бонус казино за секунды | Получить"],
