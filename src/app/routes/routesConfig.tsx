@@ -1,8 +1,6 @@
 import type { ComponentType } from 'react'
-import Home from '../../pages/Home.tsx'
 import TextBannerGenerator from '../../pages/TextBannerGenerator.tsx'
 import NotFoundPage from '../../pages/NotFoundPage.tsx'
-import ContrastGeneratorPage from '../../pages/ContrastGeneratorPage.tsx'
 import PromptsPage from '../../pages/PromptsPage.tsx'
 
 interface routesConfigInterface {
@@ -13,11 +11,15 @@ interface routesConfigInterface {
 }
 
 export const routesConfig: routesConfigInterface[] = [
-	{ path: '/', label: 'Home', Component: Home, showInMenu: true },
-
+	{
+		path: '/',
+		label: 'Текстовые баннеры',
+		Component: TextBannerGenerator,
+		showInMenu: true
+	},
 	{
 		path: '/prompts',
-		label: 'Промты',
+		label: 'Промты картинок',
 		Component: PromptsPage,
 		showInMenu: true
 	},
@@ -26,19 +28,6 @@ export const routesConfig: routesConfigInterface[] = [
 		label: 'Prompts by Category',
 		Component: PromptsPage,
 		showInMenu: false
-	},
-
-	{
-		path: '/generate-text-banner',
-		label: 'Генератор текстовых баннеров',
-		Component: TextBannerGenerator,
-		showInMenu: true
-	},
-	{
-		path: '/contrast-checker',
-		label: 'Contrast Checker',
-		Component: ContrastGeneratorPage,
-		showInMenu: true
 	},
 	{
 		path: '*',

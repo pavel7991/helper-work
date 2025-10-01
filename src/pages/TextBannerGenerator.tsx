@@ -5,8 +5,9 @@ import Button from '../shared/Button.tsx'
 import BannerPreview from '../widgets/BannerPreview'
 
 import type { BannerTuple } from '../data/lang/types.ts'
-import { croatia } from '../data/lang/croatia.ts'
-import { slovenia } from '../data/lang/slovenia.ts'
+import { croatian } from '../data/lang/croatian.ts'
+import { slovenian } from '../data/lang/slovenian.ts'
+import { german } from '../data/lang/german.ts'
 
 const TextBannerGenerator = () => {
 	const [bannersTexts, setBannersTexts] = useState({
@@ -30,13 +31,9 @@ const TextBannerGenerator = () => {
 	return (
 		<>
 			<div className="flex gap-x-2">
-				<Button onClick={() => onClickHandler(slovenia)}>Словения</Button>
-				<Button onClick={() => onClickHandler(croatia)}>Хорватия</Button>
-				{/*<Button onClick={() => onClickHandler(bannerContentData.mixEN)}>English - Английский</Button>*/}
-				{/*<Button onClick={() => onClickHandler(bannerContentData.mixMexico)}>Mexico - Испанский</Button>*/}
-				{/*<Button onClick={() => onClickHandler(bannerContentData.mixGreek)}>Greek - Греция</Button>*/}
-				{/*<Button onClick={() => onClickHandler(bannerContentData.mixGermany)}>Germany - Германия</Button>*/}
-				{/*<Button onClick={() => onClickHandler(bannerContentData.mixRoman)}>Roman - Румыния</Button>*/}
+				<Button onClick={() => onClickHandler(slovenian)}>Словения (словенский)</Button>
+				<Button onClick={() => onClickHandler(croatian)}>Хорватия (хорватский)</Button>
+				<Button onClick={() => onClickHandler(german)}>Германия (немецкий)</Button>
 			</div>
 
 			<div className="grid grid-cols-2 gap-x-4 bg-neutral-900 p-4 my-4 rounded-lg border border-gray-800">

@@ -9,7 +9,7 @@ const PromptsPage = () => {
 
 	return (
 		<div>
-			<nav className="flex gap-x-3 mb-6">
+			<nav className="flex flex-wrap gap-x-3 gap-y-2 mb-6">
 				{promptsData.map((cat) => (
 					<Link
 						key={cat.key}
