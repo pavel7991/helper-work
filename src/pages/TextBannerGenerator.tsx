@@ -1,10 +1,11 @@
 import { useState } from 'react'
-import { type BannerTuple } from '../data/data.ts'
 import random from '../utils/randomArr.ts'
 import copyToClipboard from '../utils/copyToClipboard.ts'
 import Button from '../shared/Button.tsx'
 import BannerPreview from '../widgets/BannerPreview'
 import { croatia } from '../data/lang/croatia.ts'
+import type { BannerTuple } from '../data/lang/types.ts'
+import { slovenia } from '../data/lang/slovenia.ts'
 
 const TextBannerGenerator = () => {
 	const [bannersTexts, setBannersTexts] = useState({
@@ -28,12 +29,12 @@ const TextBannerGenerator = () => {
 	return (
 		<>
 			<div className="flex gap-x-2">
+				<Button onClick={() => onClickHandler(slovenia)}>Словения</Button>
 				<Button onClick={() => onClickHandler(croatia)}>Хорватия</Button>
 				{/*<Button onClick={() => onClickHandler(bannerContentData.mixEN)}>English - Английский</Button>*/}
 				{/*<Button onClick={() => onClickHandler(bannerContentData.mixMexico)}>Mexico - Испанский</Button>*/}
 				{/*<Button onClick={() => onClickHandler(bannerContentData.mixGreek)}>Greek - Греция</Button>*/}
 				{/*<Button onClick={() => onClickHandler(bannerContentData.mixGermany)}>Germany - Германия</Button>*/}
-				{/*<Button onClick={() => onClickHandler(bannerContentData.mixSlovenia)}>Slovenia - Словения</Button>*/}
 				{/*<Button onClick={() => onClickHandler(bannerContentData.mixRoman)}>Roman - Румыния</Button>*/}
 			</div>
 

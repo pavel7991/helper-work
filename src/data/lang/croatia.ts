@@ -1,4 +1,4 @@
-import type { BannerTuple } from '../data.ts'
+import type { BannerTuple } from './types.ts'
 
 export const croatia: Array<BannerTuple> = [
 	['Osvoji 200% Bonusa na Prvi Depozit | Igraj Sada', 'Выиграй 200% Бонуса на Первый Депозит | Играй Сейчас'],
