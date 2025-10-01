@@ -1,4 +1,5 @@
-import type {BannerTuple} from "../data/data.ts";
+import type { BannerTuple } from '../data/lang/types'
+
 
 const random = (arr: BannerTuple[]) => {
   const randomIndex = Math.floor(Math.random() * arr.length);

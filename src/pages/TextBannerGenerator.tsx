@@ -3,8 +3,9 @@ import random from '../utils/randomArr.ts'
 import copyToClipboard from '../utils/copyToClipboard.ts'
 import Button from '../shared/Button.tsx'
 import BannerPreview from '../widgets/BannerPreview'
-import { croatia } from '../data/lang/croatia.ts'
+
 import type { BannerTuple } from '../data/lang/types.ts'
+import { croatia } from '../data/lang/croatia.ts'
 import { slovenia } from '../data/lang/slovenia.ts'
 
 const TextBannerGenerator = () => {
