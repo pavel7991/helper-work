@@ -8,6 +8,7 @@ import type { BannerTuple } from '../data/lang/types.ts'
 import { croatian } from '../data/lang/croatian.ts'
 import { slovenian } from '../data/lang/slovenian.ts'
 import { german } from '../data/lang/german.ts'
+import { mexico } from '../data/lang/mexico.ts'
 
 const TextBannerGenerator = () => {
 	const [bannersTexts, setBannersTexts] = useState({
@@ -31,6 +32,7 @@ const TextBannerGenerator = () => {
 	return (
 		<>
 			<div className="flex gap-x-2">
+				<Button onClick={() => onClickHandler(mexico)}>Мексика (испанский)</Button>
 				<Button onClick={() => onClickHandler(slovenian)}>Словения (словенский)</Button>
 				<Button onClick={() => onClickHandler(croatian)}>Хорватия (хорватский)</Button>
 				<Button onClick={() => onClickHandler(german)}>Германия (немецкий)</Button>
